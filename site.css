@@ -12,6 +12,8 @@ main h1 {
     text-align: center;
     background-color: #851944;
     color: #FFF;
+    padding: 25px;
+    border-bottom: 10px solid black;
 }
 
 p {
@@ -20,6 +22,11 @@ p {
 
 blockquote {
     background-color: #D9E5E3;
+    border: 10px solid #C2CCCA;
+    border-bottom-color: #333;
+    border-right-color: #FFF;
+    width: 250px;
+    box-sizing: border-box;
 }
 
 aside {
@@ -43,4 +50,21 @@ main a {
 aside a {
     color: inherit;
     font-family: "Open Sans Condensed", sans-serif;
+}
+
+aside {
+    text-align: center;
+}
+
+blockquote, aside, footer {
+    padding: 20px;
+}
+
+main div {
+    width: 720px;
+    margin: auto;
+}
+
+body {
+    line-height: 1.5;
 }
