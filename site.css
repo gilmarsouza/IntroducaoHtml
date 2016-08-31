@@ -41,6 +41,12 @@ p {
 .rodape-pagina {
 	background-color: #000;
 	color: #F2FFFC;
+    clear: both;
+}
+
+main {
+    float: left;
+    width: 85%;
 }
 
 main a {
@@ -78,6 +84,7 @@ em {
 
 .subtitulo-texto {
 	font-size: 30px;
+    clear: both;
 }
 
 .icones-redes-sociais li {
@@ -116,4 +123,25 @@ em {
 
 .linkedin {
     background-image: url(linkedin.png);
+}
+
+.fiat {
+    float: right;
+}
+
+.petrobras {
+    float: left;
+}
+
+cite {
+    font-style: italic;
+    float: right;
+}
+
+.minha-foto, .navegacao-site {
+    float: right;
+    width: 15%;
+    box-sizing: border-box;
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
 }
