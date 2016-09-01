@@ -9,6 +9,11 @@ h1, h2 {
 	font-family: "Open Sans Condensed", "Arial", sans-serif;
 }
 
+p {
+	text-align: justify;
+	margin: 20px 0;
+}
+
 .titulo-principal {
 	text-align: center;
 	background-color: #851944;
@@ -17,19 +22,6 @@ h1, h2 {
 	border-bottom: 10px solid black;
 	font-size: 60px;
     text-transform: uppercase;
-}
-
-p {
-	text-align: justify;
-	margin: 20px 0;
-}
-
-.citacao-bio {
-	background-color: #D9E5E3;
-	border: 10px solid #C2CCCA;
-	width: 250px;
-	box-sizing: border-box;
-	margin: 20px 40px;
 }
 
 .navegacao-site {
@@ -64,7 +56,7 @@ main a {
     text-transform: lowercase;
 }
 
-.citacao-bio, .navegacao-site, .rodape-pagina {
+.navegacao-site, .rodape-pagina {
     padding: 20px;
 }
 
@@ -96,21 +88,6 @@ em {
 	display: inline-block;
 }
 
-.artigo {
-	padding-bottom: 30px;
-	border-bottom: 1px solid #ccc;
-	margin-bottom: 20px;
-}
-
-.leia-mais {
-	padding: 8px;
-	margin: 16px;
-	display: block;
-	font-size: 24px;
-	text-align: center;
-	background-color: #E6E7E8;
-}
-
 .icones-redes-sociais a {
     width: 40px;
     height: 40px;
@@ -119,28 +96,15 @@ em {
 }
 
 .github {
-    background-image: url(github.png);
+    background-image: url(../img/github.png);
 }
 
 .twitter {
-     background-image: url(twitter.png);
+     background-image: url(../img/twitter.png);
 }
 
 .linkedin {
-    background-image: url(linkedin.png);
-}
-
-.fiat {
-    float: right;
-}
-
-.petrobras {
-    float: left;
-}
-
-cite {
-    font-style: italic;
-    float: right;
+    background-image: url(../img/linkedin.png);
 }
 
 .minha-foto, .navegacao-site {
