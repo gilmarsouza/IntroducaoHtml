@@ -42,11 +42,16 @@ p {
 	background-color: #000;
 	color: #F2FFFC;
     clear: both;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
 
 main {
     float: left;
     width: 85%;
+    padding-bottom: 80px;
 }
 
 main a {
@@ -140,8 +145,19 @@ cite {
 
 .minha-foto, .navegacao-site {
     float: right;
-    width: 15%;
     box-sizing: border-box;
     border-left: 10px solid black;
     border-bottom: 10px solid black;
+}
+
+.minha-foto {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.navegacao-site {
+    width: 15%;
+    position: relative;
+    top: 310px;
 }
